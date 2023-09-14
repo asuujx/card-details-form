@@ -17,6 +17,7 @@ function FormName({ formName, setFormName }: FormNameProps) {
         id="name"
         className="border rounded-lg w-full py-2 px-4 placeholder-[hsl(279,6%,55%)]"
         onChange={(e) => setFormName(e.target.value)}
+        required
       />
     </div>
   );
