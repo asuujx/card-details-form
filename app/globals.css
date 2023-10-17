@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.front-background {
+  background-image: url("/images/bg-card-front.png");
+  background-size: cover; /* Adjust this to your needs */
+  background-repeat: no-repeat;
+  padding: 20px; /* Add padding to maintain content spacing */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
